@@ -6,6 +6,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* Style the header */
 header {
   background-color: #013528;
@@ -20,12 +21,12 @@ header h1 {
 }
 
 header p {
-  font-size: 3vw;
+  font-size: 6vw;
 }
 
 hr {
   border: 1px solid grey;
-  width: 14%;
+  width: 30%;
   text-align: right;
   margin-left: 0;
   height:2px;
@@ -45,6 +46,7 @@ aside {
   flex: 1;
   background: #ccc;
   padding: 20px;
+  font-size: 2em;
 }
 
 /* Style the list inside the menu */
@@ -60,7 +62,9 @@ article {
   flex: 3;
   background-color: #f1f1f1;
   padding: 10px;
+  font-size: 2em;
 }
+
 
 /* Style the footer */
 footer {
