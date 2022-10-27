@@ -39,9 +39,17 @@ header p {
   margin-left: 0;
   margin-top: -28px;
 }
+
 .range {
   margin-top: -15px;
   margin-bottom: -30px;
+}
+
+.education {
+  display: inline-block;
+  font-size: 100px;
+  width: 1em;
+  height: 1em;
 }
 /* Container for flexboxes */
 section {
