@@ -16,7 +16,6 @@ header {
   background-color: #013528;
   padding: 30px;
   text-align: center;
-  font-size: 35px;
   color: #E0CA94;
 }
 
@@ -26,7 +25,7 @@ h2 {
 }
 
 header h1 {
-  font-size: 5vw;
+  font-size: 8vw;
 }
 
 header p {
