@@ -12,12 +12,19 @@ body {
   line-height: 1.5em;
 }
 
-/* Style the header */
 header {
   background-color: #013528;
   padding: 30px;
   text-align: center;
   color: #E0CA94;
+}
+
+a {
+  color: #ae49f1;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 h2 {
@@ -27,12 +34,6 @@ h2 {
 
 header h1 {
   font-size: 8vw;
-}
- header h4 {
-  font-size: 3vw;
- }
-header p {
-  font-size: 6vw;
 }
 
 .vertical {
@@ -53,13 +54,12 @@ header p {
   font-size: 50px;
   float: left;
 }
-/* Container for flexboxes */
+
 section {
   display: -webkit-flex;
   display: flex;
 }
 
-/* Style the navigation menu */
 aside {
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -71,13 +71,11 @@ aside {
   padding-left: 1rem;
 }
 
-/* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* Style the content */
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
@@ -93,7 +91,6 @@ article {
   margin: 1rem;
 }
 
-/* Style the footer */
 footer {
   background-color: #013528;
   padding: 10px;
