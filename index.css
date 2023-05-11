@@ -6,6 +6,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body {
   font: 300 100%/1.5 'Montserrat', sans-serif;
   line-height: 1.5em;
@@ -27,7 +28,9 @@ h2 {
 header h1 {
   font-size: 8vw;
 }
-
+ header h4 {
+  font-size: 4vw;
+ }
 header p {
   font-size: 6vw;
 }
@@ -107,7 +110,6 @@ span {
   font-size: 1.5rem;
 }
 
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 
 @media (max-width: 600px) {
   section {
