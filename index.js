@@ -1,3 +1,4 @@
 
-const myDate = new Date().getFullYear;
-document.getElementById("dateYear").innerHTML = `© ${myDate} Shem Ogweno `;
+const myDate = new Date();
+let year =myDate.getFullYear();
+document.getElementById("dateYear").innerHTML = `© ${year} Shem Ogweno `;
