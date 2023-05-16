@@ -10,6 +10,8 @@ html {
 body {
   font: 300 100%/1.5 'Montserrat', sans-serif;
   line-height: 1.5em;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -36,6 +38,12 @@ header h1 {
   font-size: 8vw;
 }
 
+.container {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 .vertical {
   border: 1px solid grey;
   width: 350px;
