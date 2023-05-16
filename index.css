@@ -38,12 +38,12 @@ header h1 {
   font-size: 8vw;
 }
 
-.container {
-  max-width: 800px;
+/* .container {
+  max-width: 1000px;
   width: 85%;
   margin: 0 auto;
   padding: 60px 0;
-}
+} */
 .vertical {
   border: 1px solid grey;
   width: 350px;
